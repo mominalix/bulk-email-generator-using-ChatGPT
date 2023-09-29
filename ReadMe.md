@@ -56,9 +56,6 @@ The script will generate customized emails for each client and save them in the 
 
 That's it! You've successfully generated bulk sales emails customized for your clients using the OpenAI API.
 
-For any questions or issues, please feel free to reach out:
-
-[email](mailto:mominalichannar@gmail.com)
-[LinkedIn](https://www.linkedin.com/in/mominalix)
+For any questions or issues, please feel free to reach out through [Email](mailto:mominalichannar@gmail.com) or visit my profile on [LinkedIn](https://www.linkedin.com/in/mominalix)
 
 
