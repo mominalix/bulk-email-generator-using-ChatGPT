@@ -1,4 +1,4 @@
-# Bulk Sales Email Generator
+# Personalized Bulk Sales Email Generator
 
 This Python script uses the OpenAI API to generate bulk sales emails customized based on clients' use cases. It extracts client information from a CSV file, scrapes website data, and uses the OpenAI API to create personalized emails for each client. The results are saved to a CSV file.
 
