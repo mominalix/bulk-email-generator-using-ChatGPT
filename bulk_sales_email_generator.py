@@ -3,7 +3,7 @@ import requests
 from bs4 import BeautifulSoup
 import openai
 
-# Define your OpenAI API key ---------------------------------------------------
+# Define your OpenAI API key here
 openai.api_key =  "YOUR_API_KEY"
 
 
@@ -28,7 +28,7 @@ def scrape(url):
                         p_tags.append(name)
                 text += [str(item) for item in p_tags]
 
-                # Clean and process the scraped text as needed
+                # Add additional cleaning process to the scraped text as needed
 
 
                 # Return the cleaned text
@@ -50,6 +50,7 @@ def generate_customized_email(client_name, client_website, scraped_data, sender_
         - Sender's product name: {sender_product_name}
         - Sender's name: {sender_name}
         make sure the email is from sender's product, personalized and relevant to the client's business.'''
+        
         # Call the OpenAI API to generate the customized email
         response = openai.Completion.create(
             engine="text-davinci-003",
