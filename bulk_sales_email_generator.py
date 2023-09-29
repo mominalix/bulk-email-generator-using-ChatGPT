@@ -3,7 +3,7 @@ import requests
 from bs4 import BeautifulSoup
 import openai
 
-# Define your OpenAI API key here
+# Define your OpenAI API key here ---------------------------------------- Customization required ----------------------------------------
 openai.api_key =  "YOUR_API_KEY"
 
 
@@ -77,7 +77,7 @@ with open(input_csv_file, 'r') as csv_file:
     reader = csv.DictReader(csv_file)
     rows = list(reader)
 
-# Define sender information
+# Define sender information ---------------------------------------- Customization required ----------------------------------------
 sender_name = "John Wick"
 sender_product_detail = "We create digital marketing campaigns that drive traffic, convert visitors into leads and sales, and scale your business fast."
 sender_product_name = "Digital Alpha"
